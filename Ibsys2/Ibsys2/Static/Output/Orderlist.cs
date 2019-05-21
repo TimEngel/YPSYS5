@@ -23,6 +23,10 @@ namespace Ibsys2.Static.Output {
             }
         }
 
+        public static void Reset() {
+          _class = null;
+        }
+
         public Orderlist() {
             if (_class != null)
                 throw new Exception("Class already exists!");

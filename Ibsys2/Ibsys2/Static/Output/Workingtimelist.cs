@@ -31,6 +31,10 @@ namespace Ibsys2.Static.Output
             }
         }
 
+        public static void Reset() {
+          _class = null;
+        }
+
         public void AddItem(WorkingtimelistItem item)
         {
             if (item == null)

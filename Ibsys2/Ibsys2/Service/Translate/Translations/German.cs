@@ -14,7 +14,12 @@ namespace Ibsys2.Service {
         }
 
         private static void Translate() {
-            _translate.Add("HELLO", "Hallo");
+      _translate.Add("EILBESTELLUNG", "Eilbestellung");
+      _translate.Add("NORMALBESTELLUNG", "Normalbestellung");
+      _translate.Add("HELLO", "Hallo");
+            _translate.Add("REFRESHCHILD", "aktualisieren");
+            _translate.Add("REFRESHWOMEN", "aktualisieren");
+            _translate.Add("REFRESHMAN", "aktualisieren");
             _translate.Add("SETTINGS_SAVED", "Einstellungen gespeichert! Möchten Sie das Programm neustarten? Ohne Neustart kann es zu Problemen bei der Übersetzung kommen!");
             _translate.Add("SETTINGS", "Einstellungen");
             _translate.Add("XML_ERROR", "Das ist keine XML Datei!");
@@ -205,7 +210,7 @@ namespace Ibsys2.Service {
             _translate.Add("BIKETYPE", "Fahrradtyp");
             _translate.Add("INDIVIDUAL_EFFORT", "Einzelaufwand");
             _translate.Add("KAPA", "Kapazitätsplan");
-            _translate.Add("TYPE", "Typ");
+            _translate.Add("TYPE", "Eilbestellung");
             _translate.Add("DEL", "löschen");
             _translate.Add("ADD", "hinzufügen");
             _translate.Add("SPLIT", "teilen");

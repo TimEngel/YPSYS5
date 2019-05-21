@@ -181,56 +181,56 @@ namespace Ibsys2.Berechnungen.Logic
             // Kinderfahrrad
             p1 = vs.prognose1P1 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
 
-            e26K = p1 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e51 = p1 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
+            e26K = p1 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e26;
+            e51 = p1 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e51;
 
-            e16K = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e17K = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e50 = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
+            e16K = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e16;
+            e17K = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e17;
+            e50 = e51 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e50;
 
-            e4 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e10 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e49 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
+            e4 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e4;
+            e10 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e10;
+            e49 = e50 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e49;
 
-            e7 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e13 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
-            e18 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1;
+            e7 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e7;
+            e13 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e13;
+            e18 = e49 + vs.sb_Prognose1P1 - vs.sicherheitsbestandP1e18;
 
             // Damenfahrrad
             p2 = vs.prognose1P2 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
 
-            e26D = p2 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e56 = p2 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
+            e26D = p2 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e26;
+            e56 = p2 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e56;
 
-            e16D = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e17D = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e55 = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
+            e16D = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e16;
+            e17D = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e17;
+            e55 = e56 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e55;
 
-            e5 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e11 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e54 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
+            e5 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e5;
+            e11 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e11;
+            e54 = e55 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e54;
 
-            e8 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e14 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
-            e19 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2;
+            e8 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e8;
+            e14 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e14;
+            e19 = e54 + vs.sb_Prognose1P2 - vs.sicherheitsbestandP2e19;
 
             // Herrenfahrrad
             p3 = vs.prognose1P3 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
 
-            e26H = p3 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e31 = p3 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
+            e26H = p3 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e26;
+            e31 = p3 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e31;
 
-            e16H = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e17H = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e30 = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
+            e16H = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e16;
+            e17H = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e17;
+            e30 = e31 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e30;
 
-            e6 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e12 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e29 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
+            e6 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e6;
+            e12 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e12;
+            e29 = e30 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e29;
 
-            e9 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e15 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
-            e20 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3;
+            e9 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e9;
+            e15 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e15;
+            e20 = e29 + vs.sb_Prognose1P3 - vs.sicherheitsbestandP3e20;
 
             #endregion
 

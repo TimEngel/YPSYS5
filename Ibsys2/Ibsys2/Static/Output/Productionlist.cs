@@ -23,6 +23,10 @@ namespace Ibsys2.Static.Output {
             }
         }
 
+        public static void Reset() {
+          _class = null;
+        }
+
         public List<ProductionlistItem> List { get { return _list; } }
 
         public Productionlist() {
